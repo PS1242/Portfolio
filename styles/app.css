@@ -1,0 +1,191 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+.textContent{
+
+  font-family: "Roboto", sans-serif;
+}
+.hi , .name , .iam{
+
+  font-size: 50px;
+}
+
+.hi {
+  font-family: "Lobster", cursive;
+  margin-top: 5px;
+  min-width: 250px;
+}
+.iam {
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.name {
+  font-weight: 500;
+  margin-top: 0;
+  min-width: 350px;
+}
+.categoryHeading {
+  color: #00bfff;
+  font-size: 40px;
+  font-weight: 300;
+}
+.aboutMeDescription , .techStackDescription{
+  color: gray;
+  padding: 0 100px;
+  font-weight: 300;
+}
+
+.parentContainer {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 250px;
+}
+.techCtr{
+  width: max-content;
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+li {
+  display: inline;
+  margin-right: 10em;
+}
+.contactLi{
+
+  margin-right: 2em;
+}
+.firstimg{
+
+  margin-left: 6em;
+}
+img{
+
+  width: 100px;
+  height: 100px;
+}
+
+button{
+
+  position: absolute;
+  left: 2em;
+  top: 2em;
+
+  padding: 10px 15px;
+  color: white;
+  background-color: #00bfff;
+  font-size: 12px;
+  text-align: center;
+  border: 2px solid white;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  letter-spacing: 4px;
+  font-weight: 500;
+
+}
+
+.contactimg:hover{
+
+  transition: 0.2s;
+  transform: scale(1.2);
+}
+
+button:hover{
+
+  transition: 0.3s;
+  background-color: white;
+  color: #00bfff;
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+.top{
+
+  text-decoration: underline;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 14px;
+  position: absolute;
+  right: 3em;
+  bottom: 2em;
+}
+.contactimg{
+
+  width: 35px;
+  height: 35px;
+}
+.myHeader {
+  height: 350px;
+  background-color: #00bfff;
+  text-align: center;
+  padding-top: 1px;
+  position: relative;
+}
+
+.greetingDiv {
+  color: aliceblue;
+}
+.aboutMe {
+  position: relative;
+  height: 200px;
+  text-align: center;
+}
+.techStack {
+  height: 300px;
+  position: relative;
+  text-align: center;
+}
+.contactText{
+
+  margin-top: 140px;
+  margin-bottom: 20px;
+}
+
+.myFooter {
+
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+27,39bcef+94,39bcef+97,39bcef+100 */
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgb(255,255,255) 27%, rgb(57,188,239) 94%, rgb(57,188,239) 97%, rgb(57,188,239) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgb(255,255,255) 27%,rgb(57,188,239) 94%,rgb(57,188,239) 97%,rgb(57,188,239) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgb(255,255,255) 27%,rgb(57,188,239) 94%,rgb(57,188,239) 97%,rgb(57,188,239) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#39bcef',GradientType=0 ); /* IE6-9 */
+
+}
+
+.anim {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.bounce-2 {
+  animation-name: bounce-2;
+  animation-timing-function: ease;
+}
+@keyframes bounce-2 {
+  0%   { transform: translateY(0); }
+  10%  { transform: translateY(-20px); }
+  20% { transform: translateY(0); }
+}
+
+@media (max-width: 600px){
+
+  button{
+
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+  }
+}
